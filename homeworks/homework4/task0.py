@@ -16,3 +16,10 @@ for sentence in sentences:
 
 input_file.close()
 file.close()
+
+# def readinput(file):
+#     a = open(file, 'r')
+#     numbers = a.read().split(" ")
+#     return numbers[2]
+# print(readinput(file="rosalind_ini5.txt"))
+
