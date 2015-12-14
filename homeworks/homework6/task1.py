@@ -24,10 +24,10 @@ def func():
             for j in get_ref(global_url+i):
                 if global_url+j == url_finish:
                     return (url_start, global_url+i, global_url+j)
-                # else:
-                #     for g in get_ref(global_url+j):
-                #         if global_url+g == url_finish:
-                #             return (url_start, global_url+i, global_url+j, global_url+g)
+                else:
+                    for g in get_ref(global_url+j):
+                        if global_url+g == url_finish:
+                            return (url_start, global_url+i, global_url+j, global_url+g)
 result = []
 result = func()
 for i in result:
