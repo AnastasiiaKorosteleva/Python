@@ -4,8 +4,8 @@ import re
 from lxml import etree
 
 
-url_start = "https://en.wikipedia.org/wiki/Gone_Maggie_Gone"
-url_finish = "https://en.wikipedia.org/wiki/Theia_(planet)"
+url_start = "https://en.wikipedia.org/wiki/Straton_tube"
+url_finish = "https://en.wikipedia.org/wiki/Waveform"
 global_url = 'https://en.wikipedia.org'
 
 def get_ref(ref):
@@ -13,7 +13,7 @@ def get_ref(ref):
     parser = etree.HTMLParser()
     tree = etree.fromstring(data, parser)
     links = tree.xpath("//a/@href")
-    results = re.findall("/wiki/[\w\(\)]+", str(links))
+    results = re.findall("/wiki/[\w\(\)-]+", str(links))
     return results
 
 def func():
@@ -24,7 +24,10 @@ def func():
             for j in get_ref(global_url+i):
                 if global_url+j == url_finish:
                     return (url_start, global_url+i, global_url+j)
-
+                # else:
+                #     for g in get_ref(global_url+j):
+                #         if global_url+g == url_finish:
+                #             return (url_start, global_url+i, global_url+j, global_url+g)
 result = []
 result = func()
 for i in result:
