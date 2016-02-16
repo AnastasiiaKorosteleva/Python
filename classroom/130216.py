@@ -89,9 +89,9 @@ def append(x, el):
     else:
         x.append(el)
 try:
-    append([4,5,6], 5)
+    append(6, 5)
 except TypeError:
-    print("type error, again =(")
+    print("TypeError")
 
 
 

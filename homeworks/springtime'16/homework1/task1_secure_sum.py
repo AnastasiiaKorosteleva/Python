@@ -9,7 +9,7 @@ def sum(a,b):
         raise TypeError()
 
 
-# try:
-#     sum("fds",6.5)
-# except (TypeError, ValueError) as err:
-#     print(err)
+try:
+    sum(5,"sds")
+except (TypeError, ValueError) as err:
+    print("caught", )
