@@ -5,7 +5,7 @@ from lxml import etree
 
 
 url_start = "https://en.wikipedia.org/wiki/Straton_tube"
-url_finish = "https://en.wikipedia.org/wiki/Waveform"
+url_finish = "https://en.wikipedia.org/wiki/Waveform_monitor"
 global_url = 'https://en.wikipedia.org'
 
 def get_ref(ref):
