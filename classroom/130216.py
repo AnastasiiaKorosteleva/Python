@@ -82,36 +82,36 @@ __author__ = 'anastasiiakorosteleva'
 
 #seven
 
-
-def append(x, el):
-    if not type(x) is list:
-        raise TypeError("First arg should be a list")
-    else:
-        x.append(el)
-try:
-    append(6, 5)
-except TypeError:
-    print("TypeError")
+#
+# def append(x, el):
+#     if not type(x) is list:
+#         raise TypeError("First arg should be a list")
+#     else:
+#         x.append(el)
+# try:
+#     append(6, 5)
+# except TypeError:
+#     print("TypeError")
 
 
 
 
 #eight
 
-# class RangeIterator:
-#     def __init__(self, i, j):
-#         self.i = i
-#         self.j = j
-#     def __iter__(self):
-#         return self
-#     def __next__(self):
-#         if self.i < self.j:
-#             ret_val = self.i
-#             self.i += 1
-#             return ret_val
-#         else:
-#             raise StopIteration("No more el")
-#
-# it = RangeIterator(10, 11)
-# for x in it:
-#     print(x)
+class RangeIterator:
+    def __init__(self, i, j):
+        self.i = i
+        self.j = j
+    def __iter__(self):
+        return self
+    def __next__(self):
+        if self.i < self.j:
+            ret_val = self.i
+            self.i += 1
+            return ret_val
+        else:
+            raise StopIteration("No more el")
+
+it = RangeIterator(10, 11)
+for x in it:
+    print(x)
