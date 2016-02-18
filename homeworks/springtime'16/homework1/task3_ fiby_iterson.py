@@ -10,7 +10,7 @@ class fibonacci_sequence:
         self.fibs = [1, 1]
         for f in range(2, self.n):
             self.fibs.append(self.fibs[-1] + self.fibs[-2])
-
+        return self
     def __next__(self):
         if self.cnt >= self.n:
             raise StopIteration()
@@ -20,15 +20,16 @@ class fibonacci_sequence:
             return a
 
 
-it = fibonacci_sequence(5)
-it.__iter__()
-
-print(it.__next__())
-print(it.__next__())
-print(it.__next__())
-print(it.__next__())
-print(it.__next__())
-print(it.__next__())
+it = iter(fibonacci_sequence(5))
+print(it)
+# it.__iter__()
+#
+# print(it.__next__())
+# print(it.__next__())
+# print(it.__next__())
+# print(it.__next__())
+# print(it.__next__())
+# print(it.__next__())
 
 #print(it.__iter__())
 # for x in it:
