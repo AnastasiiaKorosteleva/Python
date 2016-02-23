@@ -4,20 +4,22 @@ quantity = int(input())
 functions = input().split()
 m = int(input())
 except_list = []
-for i in range(m):
+
+for k in range(m):
     except_list.append(input())
-last_except = input()
+
 except_dict = {}
+last_except = input()
 
 for i in except_list:
-    key = i.split()[0] # function
-    if key not in except_dict:
-        except_dict[key] = {i.split()[1]: i.split()[2]}
+    key = i.split()
+    if key[0] not in except_dict:
+        except_dict[key[0]] = {key[1]: key[2]}
     else:
-        except_dict[key[0]].update({i.split()[1]: i.split()[2]})
+        except_dict[key[0]].update({key[1]: key[2]})
+
 
 stack = reversed(functions)
-
 for j in stack:
     if last_except in except_dict[j]:
         value = except_dict[j]
@@ -30,5 +32,3 @@ for j in stack:
         quantity = quantity - 1
 print(' '.join(map(str,functions[0:quantity])))
 
-# for i in range(quantity):
-#     print(functions[i])
