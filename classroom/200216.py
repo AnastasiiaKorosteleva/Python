@@ -26,7 +26,8 @@ class MyDict(dict):
 x = MyDict()
 x['a'] = 15
 x['b'] = 12
-print(x)
+print(x.__repr__())
+# print(x)
 print(x.sorted_values())
 
 

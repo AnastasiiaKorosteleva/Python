@@ -27,8 +27,8 @@ for j in stack:
             break
         else:
             last_except = value[last_except]
-            quantity = quantity - 1
+            quantity -= 1
     else:
-        quantity = quantity - 1
-print(' '.join(map(str,functions[0:quantity])))
+        quantity -=  1
+print(' '.join(functions[:quantity]))
 
