@@ -1,5 +1,4 @@
 __author__ = 'anastasiiakorosteleva'
-
 def recursive(node):
     if node not in visited:
         visited.append(node)
@@ -8,7 +7,6 @@ def recursive(node):
                 recursive(i)
     else:
         return
-
 n = int(input())
 classes = {}
 for i in range(n):
@@ -21,7 +19,6 @@ for i in range(n):
         classes[first].append(second)
 q = int(input())
 query_list = list()
-
 for i in range(q):
     query_list.append(input())
 for i in query_list:
@@ -41,3 +38,5 @@ for i in query_list:
 #             visited.add(vertex)
 #             stack.extend(graph[vertex] - visited)
 #     return visited
+
+
