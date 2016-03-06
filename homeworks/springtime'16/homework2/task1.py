@@ -7,7 +7,7 @@ class C:
     pass
 class D(A,C):
     pass
-import sys
+# import sys
 inh = []
 for i in A, B, C:
     if issubclass(D, i):
