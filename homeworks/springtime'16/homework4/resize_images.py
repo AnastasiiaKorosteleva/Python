@@ -7,12 +7,12 @@ import argparse
 import os.path
 
 
-parser = argparse.ArgumentParser(description="We make picture 100*100")
+parser = argparse.ArgumentParser(description="We can make picture 100*100!")
 
-parser.add_argument("--path",
+parser.add_argument("-path",
                     type=str,
                     help="Path to  file or directory")
-parser.add_argument("--new_path",
+parser.add_argument("-new_path",
                     type=str,
                     help="path to converted files")
 args = parser.parse_args()
