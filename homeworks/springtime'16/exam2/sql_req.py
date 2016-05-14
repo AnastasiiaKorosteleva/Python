@@ -111,14 +111,17 @@ with sq.connect("control.sqlite") as con:
 
 #11-
 
-    # for row in cur.execute(
-    #     "select Users.username, Artists.name, Albums.name, Songs.name, Listened.start_time "
-    #     "from Artists "
-    #     "inner join Albums on Artists.id = Albums.artist_id "
-    #     "inner join Songs on Songs.album_id = Albums.id "
-    #     ""
-    # ): ): ):
-    #     print(row)
+    for row in cur.execute(
+        "select Artists.name, Albums.name, Songs.name, Listened.start_time "
+        "from Artists "
+        "inner join Albums on Artists.id = Albums.artist_id "
+        "inner join Songs on Songs.album_id = Albums.id "
+        "inner join Listened on Listened.song_id = Songs.id "
+        "inner join Users on Users.id = Listened.user_id "
+        "where Users.id = 47 "
+        "order by Listened.start_time desc limit 20 "
+     ):
+        print(row)
 
 
 

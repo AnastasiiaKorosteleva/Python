@@ -10,5 +10,12 @@ query = "select Users.name, Orders.id, sum(price) from Users " \
         "where paid = 0 and Users.id = ? " \
         "group by Orders.id"
 
+def unpaid(user_id):
+        # need to do
 
+        return data
+
+
+
+print(unpaid(23))
 
