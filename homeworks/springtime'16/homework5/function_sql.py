@@ -18,3 +18,4 @@ def unpaid(user_id):
 
 print(unpaid(23))
 
+#[('Maria Doomhammer', 58, 45013.15), ('Maria Doomhammer', 374, 5110.61), ('Maria Doomhammer', 1039, 4.84)]
