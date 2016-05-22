@@ -1,6 +1,4 @@
-__author__ = 'anastasiiakorosteleva'
-
-import sqlite3 as sq
+import sqlite3 as sql
 
 
 query = "select Users.name, Orders.id, sum(price) from Users " \
@@ -10,12 +8,13 @@ query = "select Users.name, Orders.id, sum(price) from Users " \
         "where paid = 0 and Users.id = ? " \
         "group by Orders.id"
 
+
 def unpaid(user_id):
-        # need to do
+    with sql.connect("data.sqlite") as table:
+        cur = table.cursor()
+        x = cur.execute(query, [user_id]).fetchall()
 
-        return data
-
-
+    return x
 
 print(unpaid(23))
 
