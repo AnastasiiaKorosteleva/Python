@@ -1,0 +1,7 @@
+Jun  9 13:01:18 askmebefore NetworkManager[762]: <warn> No agents were available for this request.
+Jun  9 13:01:18 askmebefore NetworkManager[762]: <info> (wlan1): device state change: need-auth -> failed (reason 'no-secrets') [60 120 7]
+Jun  9 13:01:18 askmebefore NetworkManager[762]: <info> NetworkManager state is now DISCONNECTED
+Jun  9 13:01:18 askmebefore NetworkManager[762]: <info> Marking connection 'INTELLIJ' invalid.
+Jun  9 13:01:18 askmebefore NetworkManager[762]: <warn> Activation (wlan1) failed for connection 'INTELLIJ'
+Jun  6 18:35:10 askmebefore kernel: [   18.841167] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+
