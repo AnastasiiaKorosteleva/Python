@@ -25,7 +25,7 @@ else:
     if os.path.isfile(path):
         if new_path is None:
             new_path = path
-        com = "convert "+path+" -resize 100x100! "+new_path
+        com = "convert "+path+" -resize 90x120! "+new_path
         subprocess.call(com, shell=True)
     else:
         for d, dirs, files in os.walk(path):

@@ -1,0 +1,71 @@
+#NEXUS
+
+
+BEGIN DATA;
+ DIMENSIONS NTAX=4 NCHAR=741;
+ FORMAT DATATYPE=DNA INTERLEAVE MISSING=-;
+[Name: Homo             Len:   741  Check:    0]
+[Name: Mus              Len:   741  Check:    0]
+[Name: Pan              Len:   741  Check:    0]
+[Name: Rattus           Len:   741  Check:    0]
+
+MATRIX
+Homo                 tcaatcgatcacgaccctct cacgtgcacccacttagagt tgtgagcccttaaaaggaac agggattgctcactcgggga gctcggctcttgagacagga
+Mus                  -------------------- -------------------- -------------------- -------------------- --------------------
+Pan                  tcaatcgatcacgaccctct cacgtgcacccacttagagt tgtgagcccttaaaaggaac aggaattgctcactcgggga gctcggctcttgagacagga
+Rattus               -------------------- -------------------- -------------------- -------------------- --------------------
+
+Homo                 atcttgcccattccccgaac gaataaaccccttcc----t taactcagcgtctgaggaat tttgtctgcggctcctcctg ctacattctgagtggggaaa
+Mus                  -------------------- -------------------- -------------------- -------------------- --------------------
+Pan                  atcttgcccattccccgacc gaataaaccccttccttcgt taactcagcgtctgaggaat tttgtctgcggctcctcctg ctacattctgagtggggaaa
+Rattus               -------------------- -------------------- -------------------- -------------------- --------------------
+
+Homo                 gggactaaggtggtctgagg accccacagagtcaggaaga ttgag--------------- -------------------- --------------------
+Mus                  -------------------- -------------------- -----------gtgcaggat cctcccaccgccatgggcct cctgagagatcctt------
+Pan                  gggactaaggtagtctgagg accccacagagtcaggaaga ttgagagcctgataaaggtc ctgcgggcaggacaggacct cccaaccaagccctccagca
+Rattus               -------------------- -------------------- -------------------- ------------gcgggcct cctgagagaacctt------
+
+Homo                 -------agagtgcccctcc ggcctcgccatgaggctctt cctgtcgctcccggtcctgg tggtggttctgtcgatcgtc ttggaaggcccagccccagc
+Mus                  -agatccagggtgcccctcc aaccagg--atgaggctctt catcgctcttcctgtcctga ttgtggtcgtagccatgacc ttggaaggcccagcccccgc
+Pan                  aggattcagagtgcccctcc ggcctcgccatgaggctctt cctgtcgctcccggtcctgg tggtggttctgtcgatcgtc ttggaaggcccagccccagc
+Rattus               -agatccagggtgcccctcc agccagg--atgaggctctt catcgcacttcctgtcctga tcgtggtcgtagccatggct ttggaaggcccagcccctgc
+
+Homo                 ccaggggaccccagacgtct ccagtgcctt---------- --ggataagctgaaggagtt tggaaacacactggaggaca aggctcgggaactcatcagc
+Mus                  ccaggcggccccggatttgt ccggaacattggagagcata ccggataaactgaaggagtt tgggaacactttggaagaca aggcccgggcagccattgaa
+Pan                  ccaggggaccccagacgtct ccagtgcctt---------- --ggataagctgaaggagtt tggaaacacactggaggaca aggctcgggaactcatcagc
+Rattus               ccaggcggcccctgactttt ccagcgcaatggagagctta ccggataaactaaaagagtt tgggaacactttggaagata aggcccgggcagccattgag
+
+Homo                 cgcatcaaacagagtgaact ttctgccaagatgcgggagt ggttttcagagacatttcag aaagtgaaggagaaactcaa gattg---actcatgaggac
+Mus                  catatcaaacagaaggaaat tttgaccaagacccgggcct ggttctcagaggcatttggc aaagtgaaggagaagttgaa gaccacgttctcctgagcac
+Pan                  cgcatcaaacagaatgaact ttctgccaagatgcgggagt ggttttcagagacatttcag aaagtgaaggagaaactcaa gattg---actcatgaggac
+Rattus               catatcaaacagaaggaaat tatgatcaagactcggaact ggttttcagagacgctcaac aaaatgaaggagaaattaaa aaccacatttgcctgagtgc
+
+Homo                 ctgaagggtgacatcccagg aggggcctctgaaatttccc acaccccagcgcctgtgctg aggactccctccatgtggcc ccaggtgccaccaataaaaa
+Mus                  ctggcgggccacctc----- ----------gaagcatcaa ggacatccacgtaatgtgcc aggtccctcttcatcac--- -------agaccaataaaaa
+Pan                  ctgaagggtgacatcccagg aggggcctctgaaatttccc acaccccagcgcctgtgctg aggactccctccatgtggcc ccaggtgccaccaataaaaa
+Rattus               ctggcgagccacctc----- ----------gcagcagcaa agagggccacgtgacgggcc aggtccctcttca------- -------aataccaataaaa
+
+Homo                 tcctacagaaaattcaa-aa aaaaaaaaaaaaaa------ -
+Mus                  acgtgtagaaggcaaac--- -------------------- -
+Pan                  tcctacagaaaagtc----- -------------------- -
+Rattus               acttgtagagaaaaaaaaaa aaaaaaaaaaaaaaaaaaaa a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+END;

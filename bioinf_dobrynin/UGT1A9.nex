@@ -1,0 +1,211 @@
+#NEXUS
+
+
+BEGIN DATA;
+ DIMENSIONS NTAX=4 NCHAR=3533;
+ FORMAT DATATYPE=DNA INTERLEAVE MISSING=-;
+[Name: Homo             Len:  3533  Check:    0]
+[Name: Mus              Len:  3533  Check:    0]
+[Name: Pan              Len:  3533  Check:    0]
+[Name: Rattus           Len:  3533  Check:    0]
+
+MATRIX
+Homo                 -------------------- -------------------- -------------------- -------------------- --------------------
+Mus                  -------------------- -------------------- -------------------- -------------------- ----------agaaaatctt
+Pan                  tcagtgactgattttttttt atgaaaggataaaaacacgc cctctattggggtcaggttt tgtgctggtatttctcccac ctactgtatcataggagctt
+Rattus               -------------------- -------------------- -------------------- -------------------- --------------------
+
+Homo                 agattcccagctgc----tt gctctcagctgcagttctct gatggcttgcacagggtgga ccagcccccttcctctatgt gtgtgtctgctgctgacctg
+Mus                  gcagtcatagtgacaggatt actctgggctctgattttac catggctcctgtagcctttc ccacctccttttttc----- -tctgtctgcttctggcctc
+Pan                  agattcccagctgc----tt gctctcagctgcagttctct gatggcttgcacagggtgga ccagcccccttcctctatgt gtgtgtctgctgctgacctg
+Rattus               -------------------- -------------------- -atggctccttcaggctgtc catcctcccttcctctgtgt gtgtgtctgttcctggcctc
+
+Homo                 tggctttgccgaggcaggga agctactggtagtgcccatg gatgggagccactggttcac catgaggtcggtggtggaga aactcattctcagggggcat
+Mus                  tggcttggcccaggcaggca ggctgctggtggtgcccatg gatggaagccactggttcac catgcagatggttgtggaga aactcattcacagagggcat
+Pan                  tggctttgccgaggcaggga agctactggtagtgcccatg gatgggagccactggttcac catgaggtcggtggtggaga aactcattctcagggggcat
+Rattus               tggatttgcccaggcaggca ggctgctggtggtgcccatg gatgggagccactggttcac caggcagatgactgtggaga aactcctccagagagggcat
+
+Homo                 gaggtggttgtagtcatgcc agaggtgagttggcaactgg gaagatcactgaattgcaca gtgaagacttattcaacttc atataccctggaggatctgg
+Mus                  gaggttgtggtagtcatccc agaggtgagttggcagctgg ggaaatcactgaattgtaca gtgaagacttactcaatttc tcacactctggaagacctgg
+Pan                  gaggtggttgtagtcatgcc agaggtgagttggcaactgg gaagatcactgaattgcaca gtgaagacttattcaacttc atataccctggaggatctgg
+Rattus               gaggtaggggtagtcatccc agaggagagttggcagctgg gaaaattggtgaattgtaca gtgaagacatactcaattcc ttacactgtggaggatatgg
+
+Homo                 accgggagttcaaggctttt gcccatgctcaatggaaagc acaagtacgaagtatatatt ctctattaatgggttcatac aatgacatttttgacttatt
+Mus                  acagagagttcaagtattta tcttacactcaatggaaaac tccagaacacagtatacgtt ctttcttgactggttcagcc agaggtttctttgaactaac
+Pan                  accgggagttcaaggctttt gcccatgctcaatggaaagc acaagtacgaagtatatatt ctctattaatgggttcatac aatgacatttttgacttatt
+Rattus               accgtgaattcaagcatttt tcgtacactcaatggaaaac tccagaacaaagtatgtatt ctttaataacaggctcagtc aaagatttcttagaaataac
+
+Homo                 tttttcaaattgcaggagtt tgtttaaagacaaaaaatta gtagaatacttaaaggagag ttcttttgatgcagtgtttc tcgatccttttgataactgt
+Mus                  attttcacactgcaggagtt tgtttaacgacaagaagtta gtggagtacttgaagcagag attttttgatgcagtgtttc tggatcctttcgatgtgtgt
+Pan                  tttttcaaattgcaggagtt tgtttaaggacaaaaaatta gtagaatacttaaaggagag ttcttttgatgcagtgtttc tcgatccttttgataactgt
+Rattus               attttcacactgtaggagtt tgtttaaggacaagaagtta gtggagtacttgaagcagtc ttcttttgatgctgtgtttc tggatccttttcacgtgtgt
+
+Homo                 ggcttaattgttgccaaata tttctccctcccctccgtgg tcttcgccaggggaatactt tgccactatcttgaagaagg tgcacagtgccctgctcctc
+Mus                  ggattaattgtcgccaaata tttctcgctcccatcagtga tctttgcaagaggtgtattt tgtgactatcttgaagaggg tgcccagtgcccaagtcttc
+Pan                  ggcttaattgttgccaaata tttctccctcccctccgtgg tcttcaccaggggaatactt tgccactatcttgaagaagg tgcacagtgccctgcacctc
+Rattus               ggcttaactgttgccaaata tttgtcactgccatcaataa tttttgccaaagacatattt tgcgacaatcttaaagaggg tgcccagtgcccaagtcttc
+
+Homo                 tttcctatgtccccagaatt ctcttagggttctcagatgc catgactttcaaggagagag tacggaaccacatcatgcac ttggaggaacatttattatg
+Mus                  cttcctatgttcctagactt ttctcaaaatacacagacac catgactttcaaggagagag tgtggaaccatcttatctac attgaagaacatgcattttg
+Pan                  tttcctatgtccccagaatt ctcttagggttctcagatgc catgactttcaaggagaaag tacggaaccacatcatgcac ttggaggaacatttattatg
+Rattus               cttcttatgttcctagactt ttctcaaaatccgcagacac catgagtttcaaggagcgat tgtggaaccatcttatctac tttgaagaacgtgcattttg
+
+Homo                 ccaccgttttttcaaaaatg ccctagaaatagcctctgaa attctccaaacacctgttac ggagtatgatctctacagcc acacatcaatttggttgttg
+Mus                  ctcctactttttaagaactg ctgttgaagttgcatctgaa attcttcagaccccagtgac tatgacagacctctttagcc cagtgtctatttggttgtta
+Pan                  ccaccgttttttcaaaaatg ccctagaaatagcctctgaa attctccaaacacctgttac ggagtatgatctctacagcc acacatcaatttggttgttg
+Rattus               ctcctattatttgaaaactg ctatagaaattgcctctgag gttctgcagaccccagtgac tctgacagacctctacagcc cagtgtccatttggttgtta
+
+Homo                 cgaacggactttgttttgga ctatcccaaacccgtgatgc ccaacatgatcttcattggt ggtatcaactgccatcaggg aaagccgttgcctatggaat
+Mus                  cgcactgactttgtgttgga gttccccaggcctgtgatgc ctaacatggtctttattggt gggatcaactgcctccagaa gaagtcactttccaaggaat
+Pan                  cgaacggacttcgttttgga ctatcccaaacccgtgatgc ccaacatgatcttcattggt ggtatcaactgccatcaggg aaagccgttgcctatggaat
+Rattus               cgcactgactttgtgttcaa cttccccagacctgtgatgc ccaacatggtctttgttggt ggcatcaactgcttccagag gaagccactttccaaggaat
+
+Homo                 ttgaagcctacattaatgct tctggagaacatggaattgt ggttttctctttgggatcaa tggtctcagaaattccagag aagaaagctatggcaattgc
+Mus                  ttgaagcctatgtcaacgcc tctggggagcatggcatcgt tgttttctctttgggatcca tggtctcagagattccggag aagaaagccatggaaattgc
+Pan                  ttgaagcctacattaatgct tctggagaacatggaattgt ggttttctctttgggatcaa tggtctcagaaattccagag aagaaagctatggcaattgc
+Rattus               ttgaagcctatgtcaacgcc tccggagaacatggcatcgt ggttttctctttgggatcca tggtctcagagattccagag aagaaagcgatggaaattgc
+
+Homo                 tgatgctttgggcaaaatcc ctcagacagtcctgtggcgg tacactggaacccgaccatc gaatcttgcgaacaacacga tacttgttaagtggctaccc
+Mus                  tgaggctttgggcagaattc ctcagacggtcctgtggcgc tacaccggaactagaccatc gaatcttgcaaagaacacaa ttcttgtcaaatggctaccc
+Pan                  tgatgctttgggcaaaatcc ctcagacagtcctgtggcgg tacactggaacccgaccatc gaatcttgcgaacaacacga tacttgttaagtggctaccc
+Rattus               tgaggctttgggcagaattc ctcagacggtcctgtggcgc tacaccggaactagaccatc gaaccttgcaaagaacacta ttcttgtcaaatggctaccc
+
+Homo                 caaaacgatctgcttggtca cccgatgacccgtgccttta tcacccatgctggttcccat ggtgtttatgaaagcatatg caatggcgttcccatggtga
+Mus                  caaaatgatctgcttggtca tccaaagactcgggcattca tcacacactctggctcccat ggtatttatgaaggaatatg caatggagttccgatggtga
+Pan                  caaaacgatctgcttggtca cccgatgacccgtgccttta tcacccatgctggttcccat ggtgtttatgaaagcatatg caatggcgttcccatggtga
+Rattus               caaaacgatctgcttggtca tccaaaggctcgggcgttca tcacacactccggttcccat ggtatttatgaaggaatatg caatggggttccaatggtga
+
+Homo                 tgatgcccttgtttggtgat cagatggacaatgcaaagcg catggagactaagggagctg gagtgaccctgaatgttctg gaaatgacttctgaagattt
+Mus                  tgatgcccctatttggcgat cagatggacaatgccaagcg catggaaactcggggagctg gggtgaccctgaatgtcctt gaaatgactgctgatgattt
+Pan                  tgatgcccttgtttggtgat cagatggacaatgcaaagcg catggagactaagggagctg gagtgaccctgaatgttctg gaaatgacttctgaagattt
+Rattus               tgatgcccttgtttggtgat cagatggacaacgccaagcg catggaaactcggggagctg gggtgaccctgaatgtcctg gaaatgactgccgatgattt
+
+Homo                 agaaaatgctctaaaagcag tcatcaatgacaaaagttac aaggagaacatcatgcgcct ctccagccttcacaaggacc gcccggtggagccgctggac
+Mus                  ggaaaatgcccttaaaactg tcatcaacaacaagagctac aaggagaacatcatgcgcct ctccagccttcacaaggacc gtcctatagagcctctggac
+Pan                  agaaaatgctctaaaagcag tcatcaatgacaaaagctac aaggagaacatcatgcgcct ctccagccttcacaaggacc gcccggtggagccgctggac
+Rattus               ggaaaacgcccttaaaactg tcatcaataacaagagttac aaggagaacatcatgcgcct ctccagccttcacaaggacc gtcctatcgagcctctggac
+
+Homo                 ctggccgtgttctgggtgga gtttgtgatgaggcacaagg gcgcgccacacctgcgcccc gcagcccacgacctcacctg gtaccagtaccattccttgg
+Mus                  ctggctgtgttctgggtgga atacgtgatgaggcacaagg gggcaccacacctgcgcccg gccgcccatgacctcacctg gtatcagtaccactccttgg
+Pan                  ctggccgtgttctgggtgga gtttgtgatgaggcacaagg gcgcgccacacctgcgcccc gcagctcacgacctcacctg gtaccagtaccattccttgg
+Rattus               ctggctgtgttctgggtgga gtacgtgatgaggcacaagg gggcgccacacctgcgcccc gccgcccacgacctcacctg gtaccagtaccactccttgg
+
+Homo                 acgtgattggtttcctcttg gccgtcgtgctgacagtggc cttcatcacctttaaatgtt gtgcttatggctaccggaaa tgcttggggaaaaaagggcg
+Mus                  atgtgattggcttcctcctg gccattgtgttgacagtggt cttcattgtctttaaatgtt gtgcctatggctgccggaaa tgctttgggggaaaggggcg
+Pan                  acgtgatcggtttcctcttg gccgtcgtgctgacagtggc cttcatcacctttaaatgtt gtgcttatggctaccggaaa tgcttcgggaaaaaagggcg
+Rattus               acgtgattggctttctcctg gccatcgtgttgacggtggt cttcattgtctataaaagtt gtgcctatggctgccggaaa tgctttgggggaaagggtcg
+
+Homo                 agttaagaaagcccacaaat ccaagacccattgagaagtg ggtgggaaataaggtaaaat tttgaaccattccctagtca tttccaaacttgaaaacaga
+Mus                  agtgaagaaatcacacaaat ccaagacccattgagaagtg gggggaagtgaaggagaagt attagttcattatctgatca gtt-gaaacttggaaaca--
+Pan                  agttaagaaagcccacaaat ccaagacccattgagaagtg ggtgggaaataaggtaaaat tttgaaccattccctagttg tttccaaacttgaaaacaga
+Rattus               agtgaagaaatcacacaaat ccaagacccactgagaagtg gcaggaagtgaaggagaagt attagtcccttatccaatca gtt-gaaacttggaaaca--
+
+Homo                 atcagtgttaaattcatttt attcttattaaggaaatact ttg-cataaattaatcagcc ccagagtgcttt-------- --------------------
+Mus                  ---agtgttaaatccatatt gtttttgttagggaaataat tcaccatacattataca--t tcagcacattta-------- --------------------
+Pan                  atcagtgttaaattcatttt attcttattaaggaaaaact ttg-cataaattaatcagcc ccagagtgcttt-------- --------------------
+Rattus               ---agtgttaaatccatgtt gcttttattagggaaataat tcaccatacactataca--c ccagaacaattttttttctt tttctttttttcggagctgg
+
+Homo                 -----------aaaaaattc ----tcttaaataaaaataa tagactcgctag-------- -tcagtaaagatatttgaat atgtatcgtgccccctctgg
+Mus                  -----------aaaataat- ---------aataataacaa tctaattgctggccacaccc atcagggaaggttctagtat atgtgatgtg-cttttccag
+Pan                  -----------aaaaaattc ----tcttaaataaaaataa tagacttgctag-------- -tcagtaaagatatttgaat atgtatcgtgccccctccag
+Rattus               ggaccgaacccagaacattt ttttttttaaataaaaacaa tctaattgctggccacaccc atcagggaagatactggaat atgtgatctg-tttctccag
+
+Homo                 tgtctttgatcaggatgaca tgtgccatttttcagaggac gtgcagacaggctggcattc tagattacttttcttactct gaaacatggcctgtttggga
+Mus                  tatcttcagtctagacaact cttgccatctgtt-ggtaat ttacagaaagtctggcactc t------------------- --------------------
+Pan                  tgtctttgatcaggatgaca tgtgccatttttcagaggac gtgcagacaggctggcattc tagattacttttcttactct gaaacatggcctgtttggga
+Rattus               tatcttcagtctggacaatg actgccatctgtt-ggtaac ttacagaaagtttagtgttc t------------------- --------------------
+
+Homo                 gtgcgggattcaaaggtggt cccacggctgcccctactgc aaatggcagttttaatctta tcttttggcttctgcagatg gttgcaattgatccttaacc
+Mus                  -----gctttcagtgacagc cccacagtttcccctgctcc cgccagc--tgacggctttc tcccctggattct-cagact gccgtgg-----ccttctcc
+Pan                  gtgcgggattcaaaggtggt cccactgctgcccctactgc aaatggcagttttaatctta tcttttggcttctgcagatg gttgggattgatccttaacc
+Rattus               -----gccttcagtgacagc accacagtttcccttactcc tgtcagc--taatggcttcc tcccctggattct-cagacc agtgtgg-----ccttc-cc
+
+Homo                 aataatggtcagtcctcatc tctgtcgtgcttcataggtg ccaccttgtgtgtttaaaga agggaagctttgtaccttta gagtgtaggtgaaatgaatg
+Mus                  agtgttagtcattcttcatt gtgttcatgcattatgggtg gcaa---------------- ------------gacctttg ga------------------
+Pan                  aataatggtcagtcctcatc tctgtcctgcttcataggtg ccaccttgtgtgtttaaaga agggaagctttgtaccttta gagtgtaggtgaaatgaatg
+Rattus               agtgttagtcattcctcact gtgctcatgttttgtgggtg gcac---------------- ------------ggcctttg ag------------------
+
+Homo                 aatggcttggagtgcactga gaacagcatatgatttcttg ctttggggaaaaa-gaatga tgctatgaaattggtgggtg gtgtatttgagaagataatc
+Mus                  -------------------- -------------------g ctttgggagaa-g-agatga ggctgtgacactgat-ggcc ctgtgtttgagataataatt
+Pan                  aatggcttggagtgcactga gaacagcatatgatttcttg ctttggggaaaaa-gaatga tgctataaaattggtgggtg gtgtatttgagaagataatc
+Rattus               -------------------- -------------------c tttgggagaaaagaagatga ggctgtgacactggt-ggcc ctgtgtttgagataataatt
+
+Homo                 attgcttatgtcaaatggag ctgaatttgataaaaaccca aaatacagctatgaagtgct gggcaagtttactttttttc tgatgtttcctacaactaaa
+Mus                  gttgcttgtgc--------- cggaatttgatgaaaaccaa a---------gtatgttcta aggcaagtaca----tcttc tattgtgttcccaaaccaag
+Pan                  attgcttatgtcaaatggag ctgaatttgataaaaaccca aaatacagctatgaagtgct gggcaagtttacttttttcc tgatgtttcctacaactaaa
+Rattus               attgcttgtct--------- ctgaatttgatgaaaactga a---------gtacattcta aagaaagtatg----tcttc tattgtgttcccaaaccaag
+
+Homo                 aataaattaataaatttata taaattctatt--------- -------------------- -------------------- --------------------
+Mus                  aacttatcaataaattcata taaattgtatcactactctt cttttcattggtgttatatt tatttgttgtcaaagtatat cctctaattgtaaaagcact
+Pan                  aataaattaataaatttata taaattctatt--------- -------------------- -------------------- --------------------
+Rattus               aacttgtcaataaattcata taaattgtattattactttt -------------------- -------------------- --------------------
+
+Homo                 -------------------- -------------------- -------------------- -------------------- --------------------
+Mus                  acatgatcatgatgcagaac ttgaaaactagaacagattc acacaggtatacatacacac aagaaaggaaccagctgtaa ttacagtgctcatgaataac
+Pan                  -------------------- -------------------- -------------------- -------------------- --------------------
+Rattus               -------------------- -------------------- -------------------- -------------------- --------------------
+
+Homo                 -------------------- -------------------- -------------------- -------------------- --------------------
+Mus                  catggctgctgcctagtttg attctgagtcttccaaaggt gcattggctgatggcttgca gccttgctgatgctcagcct gtgatatcactgggaagttg
+Pan                  -------------------- -------------------- -------------------- -------------------- --------------------
+Rattus               -------------------- -------------------- -------------------- -------------------- --------------------
+
+Homo                 -------------------- -------------------- -------------------- -------------------- --------------------
+Mus                  tgcaaccattaagtggcagt ctagtgtgagaaagctaggt ctctggaggtgttcctttga aggagatacagggatagagg taccttctctttctttgttc
+Pan                  -------------------- -------------------- -------------------- -------------------- --------------------
+Rattus               -------------------- -------------------- -------------------- -------------------- --------------------
+
+Homo                 -------------------- -------------------- -------------------- -------------------- --------------------
+Mus                  ccatactatcctgaaacaag aaggttcccggacagtctct ttgagtattctcttatctta cacaggtcccaaagcaacat aaccacatgatcagggatga
+Pan                  -------------------- -------------------- -------------------- -------------------- --------------------
+Rattus               -------------------- -------------------- -------------------- -------------------- --------------------
+
+Homo                 -------------------- -------------------- -------------------- -------------------- --------------------
+Mus                  aaagtctatagctagcccaa aataaacctttgctcatgag ttgctacatctcaggtattt gttacagtaacataaagttt attaacatacctattgtttt
+Pan                  -------------------- -------------------- -------------------- -------------------- --------------------
+Rattus               -------------------- -------------------- -------------------- -------------------- --------------------
+
+Homo                 -------------------- -------------------- -------------------- -------------------- --taaaaaaaaaaa------
+Mus                  gacaaatacacataaaacat tacagacattctgtattagt cagttttgcatcagcataat gaaataaccaaagcaagtaa gttaaaagagagaagggctg
+Pan                  -------------------- -------------------- -------------------- -------------------- --taa---------------
+Rattus               -------------------- -------------------- -------------------- -------------------- --------------------
+
+Homo                 -------------------- -------------------- -------------------- -------------------- --------------------
+Mus                  tttaacttagaggttatctt gctttggctcagttctgtga gggtaacagaaggtggcata tcaaacaggagcatgtacat gaacaaaccatgaattatat
+Pan                  -------------------- -------------------- -------------------- -------------------- --------------------
+Rattus               -------------------- -------------------- -------------------- -------------------- --------------------
+
+Homo                 -------------------- -------------------- -------------------- -------------------- ----------------aaaa
+Mus                  cttgaggcaggaacagggag ctagagtctgggctgtcaca atcctctttgaggaagatct ttaatgacctatgggcattt taataggccctacctgaaaa
+Pan                  -------------------- -------------------- -------------------- -------------------- --------------------
+Rattus               -------------------- -------------------- -------------------- -------------------- --------------------
+
+Homo                 aaaaaa-------------- -------------------- -------------------- -------------------- --------------------
+Mus                  aaaaagttttccctgcttct caatagcacacactgaagac caagcttttatcacatggct ctttgggggcatttcagatt caagctatatattctgacca
+Pan                  -------------------- -------------------- -------------------- -------------------- --------------------
+Rattus               -------------------- -------------------- -------------------- -------------------- --------------------
+
+Homo                 -------------------- -------------
+Mus                  aaagttccaaaagttcatgt ccatttcgcaatt
+Pan                  -------------------- -------------
+Rattus               -------------------- -------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+END;
